@@ -1,0 +1,154 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 150px;
+    background-color: #1E1E1E;
+}
+.logo {
+    border-radius: 100%;
+    padding: 1%;
+}
+.headNav {
+    position: absolute;
+    left: 65%;
+}
+ul {
+    list-style: none;
+    width: 75%;
+    display: inline-block;
+    text-align: right;
+}
+li {
+    color: #ffffff;
+    font-family: "Inter-Black", Helvetica;
+    font-size: 24px;
+    font-weight: 900;
+    float: left;
+    padding: 3%;
+}
+.hero {
+    background-color: #7f7596;
+    width: 100%;
+    height: 600px;
+}
+.profile {
+    margin: 2% auto auto 44.5%;
+    border-radius: 100%;
+    height: 216px;
+    width: 216px;
+}
+.name,.jobs {
+    color: #ffffff;
+    font-family: "Inter-Black", Helvetica;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px;
+}
+.name {
+    font-size: 48px;
+    font-weight: 900;
+}
+.jobs {
+    font-size: 24px;
+    font-weight: 700;
+}
+button {
+    background-color: #1e1e1e;
+    height: 2.5em;
+    width: 256px;
+    color: #B4A7D6;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    border: none;
+    border-radius: 12px;
+    margin-left: 43%;
+}
+.skillsBox {
+    width: 100%;
+    height: 682px;
+    background: #B4A7D6;
+}
+.skills {
+    color: #000000;
+    font-family: "Inter-Black", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    padding: 1%;
+}
+.uxr,.art,.visual {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 1% 7%;
+}
+.text1,.text2,.text3 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    position: relative;
+    font-size: 32px;
+    font-weight: 400;
+    display: inline-block;
+    width: 400px;
+    padding: 0 6%;
+    text-align: center;
+    vertical-align: text-top;
+}
+.work {
+    width: 100%;
+    height: 2141px; 
+    display: grid;
+}
+.myWork {
+    color: #ffffff;
+    font-family: "Inter-Black", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 3%;
+}
+.tripSkip {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 5% auto 50%;
+    position: relative;
+}
+.work1,.work2,.work3 {
+    background: #D9D9D9;
+    width: 454px;
+    height: 454px;
+    position: absolute;
+    margin: 6% auto 5% 10%;
+}
+.work1 {
+    top: 1650px;
+
+}
+.work2 {
+    top: 2200px;
+
+}
+.work3 {
+    top: 2750px;
+
+}
+footer {
+    width: 100%;
+    height: 147px;
+    background-color: #494457;
+    display: inline-block;
+    vertical-align: bottom;
+}
+@media only screen and (max-width:600) {
+    
+}
