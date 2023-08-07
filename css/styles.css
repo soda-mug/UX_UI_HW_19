@@ -129,6 +129,7 @@ button {
     height: 454px;
     position: absolute;
     margin: 6% auto 5% 10%;
+    object-fit: cover;
 }
 .work1 {
     top: 1650px;
