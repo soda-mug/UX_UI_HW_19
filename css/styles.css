@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: black;
     margin: 0;
@@ -67,6 +70,16 @@ button {
     border: none;
     border-radius: 12px;
     margin-left: 43%;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+button:hover {
+    font-weight: 500;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:active {
+    background-color: #B4A7D6;
+    color: #1e1e1e;
 }
 .skillsBox {
     width: 100%;
@@ -130,18 +143,19 @@ button {
     position: absolute;
     margin: 6% auto 5% 10%;
     object-fit: cover;
+    cursor: pointer;
+}
+.work1:hover,.work2:hover,.work3:hover {
+    box-shadow: 0 8px 16px 0 rgba(200,200,200,0.2), 0 6px 20px 0 rgba(200,200,200,0.19);
 }
 .work1 {
     top: 1650px;
-
 }
 .work2 {
     top: 2200px;
-
 }
 .work3 {
     top: 2750px;
-
 }
 footer {
     width: 100%;

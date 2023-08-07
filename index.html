@@ -4,6 +4,7 @@
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <header>
         <img src="images\Profile.png" alt="logo" class="logo">
         <ul class="headNav">
@@ -18,7 +19,7 @@
         <br></br>
         <div class="name">Chau Tran</div>
         <p class="jobs">UX/UI DESIGN / ILLUSTRATIONS / FRONT-END DEVELOPEMENT</p>
-        <button class="resume" href="https://docs.google.com/document/d/1i5Pl8ukrXrT_foZr_5Eetr78Lo0Alwk2PlmqBkSns-M/edit?usp=sharing">Download Resume</button>
+        <button class="resume" target="_blank" onclick="resume()">Download Resume</button>
     </section>
 </head>
 <body>
@@ -48,9 +49,9 @@
             <br>Create a service for users to lessen food waste by offering virtual 
             refrigerator organization services from vetted and verified food storage & organization experts</br>
         </div>
-        <img class="work1" src="images/Screenshot 2023-04-16 at 20-10-48 Figma.png">
-        <img class="work2" src="images/Hi-fi.png">
-        <img class="work3" src="images/Oh Kale No.png">
+        <img class="work1" target="_blank" onclick="work1()" src="images/Screenshot 2023-04-16 at 20-10-48 Figma.png">
+        <img class="work2" target="_blank" onclick="work2()" src="images/Hi-fi.png">
+        <img class="work3" target="_blank" onclick="work3()" src="images/Oh Kale No.png">
     </Section>
 </body>
 <footer>
