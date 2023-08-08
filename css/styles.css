@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: black;
+    background-image: linear-gradient(#494457,black);
     margin: 0;
 }
 header {
@@ -33,7 +33,7 @@ li {
     padding: 3%;
 }
 .hero {
-    background-color: #7f7596;
+    background-image: linear-gradient(#B4A7D6,#494457);
     width: 100%;
     height: 600px;
 }
@@ -84,7 +84,7 @@ button:active {
 .skillsBox {
     width: 100%;
     height: 682px;
-    background: #B4A7D6;
+    background-image: linear-gradient(#9f93bd,#bfb1e3);
 }
 .skills {
     color: #000000;
@@ -164,6 +164,7 @@ footer {
     display: inline-block;
     vertical-align: bottom;
 }
+
 @media only screen and (max-width:600) {
     
 }
